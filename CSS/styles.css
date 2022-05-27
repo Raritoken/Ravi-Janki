@@ -156,3 +156,16 @@ body{
     0% {opacity:0;}
     100% {opacity:1;}
   }
+
+  @media only screen and (max-width <= 600px){
+      .opener-row{
+          height: auto;
+          width: auto;
+      }
+      .footer-row{
+          width: auto;
+      }
+      .intro{
+          text-align: center;
+      }
+  }
