@@ -6,7 +6,7 @@ body{
     color: white;
     background: rgba(0, 0, 0, 0.25);
     border-color: transparent;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -14,10 +14,10 @@ body{
 
 .home:hover, .home:active, .projects:hover, .projects:active, .about:hover, .about:active, #about:hover, #about:active, .email:hover, .email:active{
     background-color: rgba(255, 0, 0, 0.25);
-    border-radius: 10px;
+    border-radius: 8px;
     border-color: transparent;
     cursor: pointer;
-    box-shadow: 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 2px rgba(255, 255, 255, 0.5);
     transform: scaleX(1.05);
     outline: none;
 }
@@ -28,11 +28,13 @@ body{
 }
 
 #about{
-    background-color: rgb(0, 200, 65);
+    background-color: rgb(0, 145, 65);
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .email{
-    background-color: rgb(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255, 0.25);
     color: white;
     font-weight: bold;
     border-radius: 10px;
@@ -43,7 +45,7 @@ body{
 }
 
 .email:hover{
-    transform: scaleX(1.05%);
+    transform: scaleX(1.05);
 }
 
 /*.opener, .profile, #about, .intro{
@@ -74,7 +76,7 @@ body{
 
 .profile{
     border-radius: 20px;
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px rgba(255, 255, 255, 0.35);
 }
 
 #profile:hover{
@@ -107,7 +109,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     overflow-wrap: break-word;
-    color: #000;
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .experience{
@@ -119,6 +121,7 @@ body{
 
 .introduction{
     font-size: larger;
+    color: rgba(255, 255, 255, 0.45);
 }
 
 .fade-in-text {
@@ -159,10 +162,11 @@ body{
 
   @media only screen and (max-width <= 600px){
       .opener-row{
-          height: auto;
+          height: 50px;
           width: auto;
       }
       .footer-row{
+          height: 50px;
           width: auto;
       }
       .intro{
