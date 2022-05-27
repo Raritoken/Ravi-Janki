@@ -162,16 +162,30 @@ body{
     100% {opacity:1;}
   }
 
-  @media only screen and (max-width <= 600px){
+  /*shitty CSS*/
+  @media only screen and (max-width < 425px){
+      body{
+          word-wrap: break-word;
+      }
       .opener-row{
-          height: 50px;
-          width: auto;
+          position: relative;
+          height: 50vw;
+          margin-right: 10vw;
+          max-width: fit-content;
+          word-wrap: break-word;
       }
       .footer-row{
-          height: 50px;
+          position: relative;
+          max-width: fit-content;
+          height: 50vw;
           width: auto;
       }
       .intro{
+          position: relative;
+          margin-right: 10vw;
+          margin-left: 10vw;
+          max-width: fit-content;
           text-align: center;
+          word-wrap: break-word;
       }
   }
