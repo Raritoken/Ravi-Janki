@@ -98,6 +98,11 @@ body{
     transform: translateX(10vw);
 }
 
+.mid-row{
+    height: 40vh;
+    transform: translateX(10vw);
+}
+
 .footer-row{
     transform: translateX(10vw);
 }
