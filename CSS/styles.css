@@ -171,6 +171,7 @@ body{
   @media only screen and (max-width < 800){
       body{
           word-wrap: break-word;
+          max-width: fit-content;
       }
       .opener-row{
         height: 10vh;
@@ -178,7 +179,7 @@ body{
       .intro-row{
         height: 20vh;
     }
-    .mid-row{
+      .mid-row{
         height: 10vh;
     }
   }
