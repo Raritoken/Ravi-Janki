@@ -104,6 +104,7 @@ body{
 }
 
 .footer-row{
+    height: 80vh;
     transform: translateX(10vw);
 }
 
@@ -183,6 +184,6 @@ body{
         height: 10vh;
     }
       .footer-row{
-        height: 10vh;
+        height: 20vh;
     }
   }
