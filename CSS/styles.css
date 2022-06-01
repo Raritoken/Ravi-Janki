@@ -168,29 +168,17 @@ body{
   }
 
   /*shitty CSS*/
-  @media only screen and (max-width < 425px){
+  @media only screen and (max-width < max-height){
       body{
           word-wrap: break-word;
       }
       .opener-row{
-          position: relative;
-          height: 50vw;
-          margin-right: 10vw;
-          max-width: fit-content;
-          word-wrap: break-word;
-      }
-      .footer-row{
-          position: relative;
-          max-width: fit-content;
-          height: 50vw;
-          width: auto;
-      }
-      .intro{
-          position: relative;
-          margin-right: 10vw;
-          margin-left: 10vw;
-          max-width: fit-content;
-          text-align: center;
-          word-wrap: break-word;
-      }
+        height: 10vh;
+    }
+      .intro-row{
+        height: 20vh;
+    }
+    .mid-row{
+        height: 10vh;
+    }
   }
