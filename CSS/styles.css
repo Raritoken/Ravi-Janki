@@ -134,6 +134,8 @@ body{
 }
 
 .percentages{
+    height: 15px;
+    width: 750px;
     margin-left: 10vw;
     margin-right: 10vw;
     transform: translateX(7.5vw) translateY(-2.5vh);
