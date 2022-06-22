@@ -76,6 +76,7 @@ body{
 }
 
 .profile{
+    width: 100%;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.35);
 }
@@ -132,6 +133,11 @@ body{
     color: rgba(255, 255, 255, 0.45);
 }
 
+.percentages{
+    transform: translateX(10vw);
+    align-content: center;
+}
+
 .fade-in-text {
     display: inline-block;
     color: black;
@@ -185,5 +191,8 @@ body{
     }
       .footer-row{
         height: 10vh;
+    }
+    .profile{
+        width: 25%;
     }
   }
