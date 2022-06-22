@@ -134,8 +134,9 @@ body{
 }
 
 .percentages{
-    transform: translateX(7.5vw);
-    align-content: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    transform: translateX(7.5vw) translateY(-2.5vh);
 }
 
 .fade-in-text {
